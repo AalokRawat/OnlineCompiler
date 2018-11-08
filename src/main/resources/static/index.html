@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+<h3>Online Compiler</h3>
+<div class="container">
+    <label> Editor </label>
+    <form id="editorForm">
+        <textarea id="editor" name="editor" style="height:400px">
+            public class Main {
+                public static void main(String[] args) {
+                    // Prints "Hello, World" to the terminal window.
+                    System.out.println("Hello, World");
+                }
+            }
+        </textarea>
+        <input id="submitButton" type="submit" value="Submit">
+    </form>
+    <br/><br/>
+    <label> Output </label>
+    <br/><br/>
+    <div id="result"></div>
+    <br/><br/>
+</div>
+<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/webjars/js-cookie/js.cookie.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
